@@ -1,0 +1,2 @@
+text("test")
+curl --location --request GET 'https://api.covid19tracker.ca/cases?province&per_page&order'
