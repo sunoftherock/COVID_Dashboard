@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/covid_app/style/style.css">
     <link rel="stylesheet" href="https://cdn.rawgit.com/kimeiga/bahunya/css/bahunya-0.1.3.css"/>
+	<link rel="stylesheet" href="/covid_app/style/style.css">
     <style>
-		#padded-box {
-			margin-bottom: 100px;
+		form{
+			z-index: 100;
 		}
 	</style>
     
@@ -17,13 +17,34 @@
 </head>
 
 <body>
-<article>
-<form>
-<div id= "Fact1" >
-	<article><div id= "main title" ></div> </article>
-</div>
-</form>
-</article>
+
+	<div id = "on-top">
+		<article id="no_botmarg">
+			<form>
+				<div id= "Fact1" >
+					<article><h1><div id= "main title" ></div></h1> </article>
+				</div>
+			</form>
+		</article>
+
+
+		<article>
+			<form>
+				<div id= "Fact2">
+					<h1>something inside</h1>
+				</div>
+			</form>
+		</article>
+
+		<article>
+			<form>
+				<div id= "Fact3">
+					<h1>something inside</h1>
+				</div>
+			</form>
+		</article>
+
+	</div>
 <!-- <article>
 <form>
 	<fieldset>
@@ -34,19 +55,10 @@
 </form>
 </article> -->
 
-<div id= "Fact2">
-	<article><h1>something inside</h1></article>
-</div>
-
-
-<div id= "Fact3" >
-	<article><h1>something inside</h1></article>
-</div>
-
 <script>
-document.getElementById("Fact1").style.margin = "0px 0px 200px 0px";
-document.getElementById("Fact2").style.margin = "0px 0px 200px 0px";
-document.getElementById("Fact3").style.margin = "0px 0px 200 px 0px";
+document.getElementById("Fact1").style.margin = "0px 0px 0px 0px";
+document.getElementById("Fact2").style.margin = "0px 0px 60px 0px";
+document.getElementById("Fact3").style.margin = "0px 0px 60px 0px";
 </script>
 
 
@@ -78,6 +90,18 @@ document.getElementById("Fact3").style.margin = "0px 0px 200 px 0px";
 <div class="particle elem17 anim-delay7"></div>
 <div class="particle elem18 anim-delay6"></div>
 <div class="particle elem19 anim-delay3"></div>
+
+<div class="particle elem20 anim-delay5"></div>
+<div class="particle elem21 anim-delay4"></div>
+<div class="particle elem22 anim-delay7"></div>
+<div class="particle elem23 anim-delay8"></div>
+<div class="particle elem24 anim-delay9"></div>
+<div class="particle elem25 anim-delay1"></div>
+<div class="particle elem26 anim-delay11"></div>
+<div class="particle elem27 anim-delay2"></div>
+<div class="particle elem28 anim-delay15"></div>
+<div class="particle elem29 anim-delay17"></div>
+
 
 
 </body>
