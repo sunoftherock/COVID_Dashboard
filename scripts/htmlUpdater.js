@@ -12,10 +12,14 @@ console.log(data.infected);
 
 return toString(data.infected);
 }
-temp = getDATA();
+//temp = getDATA();
 
 var result;
  
+
+fetch('https://api.apify.com/v2/key-value-stores/fabbocwKrtxSDf96h/records/LATEST?disableRedirect=true', {})
+    .then(response => response.json());
+    .then(data => console.log(data))
 
 //var chance = total_cases.GET('https://api.covid19tracker.ca/summary');
 
