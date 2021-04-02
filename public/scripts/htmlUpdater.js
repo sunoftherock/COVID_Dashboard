@@ -17,7 +17,7 @@ async function getDATA(country_selected) {
     result = typeof country_selected !== 'undefined' ? country_selected : 'Ontario';
 
     var regionIndexMap = new Map();
-    regionIndexMap.set("Newfoundland and Labrador", [1, 520998]);
+    regionIndexMap.set("Newfoundland and Labrador", [1, 520998, 11]);
     regionIndexMap.set("Prince Edward Island", [2, 159713, 0]);
     regionIndexMap.set("Nova Scotia", [3, 979115, 1]);
     regionIndexMap.set("New Brunswick", [4, 781315, 7]);
